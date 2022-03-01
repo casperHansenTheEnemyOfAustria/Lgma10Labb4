@@ -1,7 +1,7 @@
 def fibbo(input):
     numbers = [0, 1]
     i = len(numbers) - 1
-    output = 0 if input == 1 else numbers[i]
+    output = 0 if input == 1 or input == 0 else numbers[i]
     
     
     while (len(numbers) < input):
