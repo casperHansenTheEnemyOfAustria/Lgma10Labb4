@@ -1,4 +1,3 @@
-import math as m
 index=int(input("vilket fibbonaccital vill du ha?"))
 numbers = [0, 1]
 i = len(numbers) - 1

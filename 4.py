@@ -1,6 +1,3 @@
-import math as m
-
-
 def fibbo(index):
     numbers = [0, 1]
     i = len(numbers) - 1
