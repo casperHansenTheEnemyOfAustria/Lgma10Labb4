@@ -1,14 +1,12 @@
-def fibbo(index):
+def fibbo(input):
     numbers = [0, 1]
     i = len(numbers) - 1
-    output = 0
-    if index == 1:
-        output = 0
-    elif index == 2:
-        output = 1
-    while (len(numbers) < index):
+    output = 0 if input == 1 else numbers[i]
+    
+    
+    while (len(numbers) < input):
         numbers.append(numbers[i]+numbers[i-1])
-        i+=1
+        i += 1
         output = numbers[i]
     return(output)
 
